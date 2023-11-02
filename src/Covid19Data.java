@@ -7,6 +7,7 @@ public class Covid19Data {
     private int intensiv;
     private int indlagte;
 
+
     public Covid19Data(String region, String aldersgruppe, int totalTilfælde, int døde, int intensiv, int indlagte) {
         this.region = region;
         this.aldersgruppe = aldersgruppe;
