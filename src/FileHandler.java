@@ -17,7 +17,7 @@ public class FileHandler {
     }
 
     public ArrayList<Covid19Data> loadList() {
-        ArrayList<Covid19Data> list = new ArrayList<Covid19Data>();
+        ArrayList<Covid19Data> list = new ArrayList<>();
         File f = new File("Book2.csv");
         Scanner sc = null;
         try {

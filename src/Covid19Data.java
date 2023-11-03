@@ -17,6 +17,14 @@ public class Covid19Data {
         this.indlagte = indlagte;
     }
 
+    public String getAldersgruppe() {
+        return aldersgruppe;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
     @Override
     public String toString() {
         return "Covid19Data{" +
@@ -28,4 +36,6 @@ public class Covid19Data {
                 ", indlagte=" + indlagte +
                 '}' + "\n";
     }
+
+
 }
